@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:background="@drawable/grad1"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:visibility="gone"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/email_Login"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/email"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:hint="@string/email_Hint"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/password"
+            android:hint="@string/password_hint"
+            android:maxLines="1"
+            android:layout_marginTop="16dp"
+            android:inputType="textPassword"
+            android:importantForAutofill="no" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/email_Sign_in_button"
+            android:background="@android:color/transparent"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="@string/login_txt"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/or_text"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/create_account_button"
+            android:background="@android:color/transparent"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="@string/create_text"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abel</item>
+        <item>@font/allan</item>
+        <item>@font/bad_script</item>
+        <item>@font/bangers</item>
+        <item>@font/calligraffitti</item>
+        <item>@font/codystar</item>
+        <item>@font/luckiest_guy</item>
+        <item>@font/spicy_rice</item>
+    </array>
+</resources>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Yourself</string>
+    <string name="title_text">Self Gratitude Journal</string>
+    <string name="GrateefulText">How was your day?</string>
+    <string name="get_Started">Get Started</string>
+    <string name="email_Hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_text">Login</string>
+    <string name="login_txt">Log In</string>
+    <string name="or_text">OR</string>
+    <string name="create_text">Create Account</string>
+    <string name="title_activity_create_account">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="username_hint">Username</string>
+    <string name="post_title">Title</string>
+    <string name="post_thoughts">Your Thoughts...</string>
+    <string name="post_save">SAVE</string>
+    <string name="ishan" />
+    <string name="menu_title">Add Thoughts</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="no_thoughts_hint">Write a Journal Entry by clicking the \"+\" icon</string>
+    <string name="no_text">No</string>
+    <string name="sure_text">Sure</string>
+    <string name="sure">Are You Sure?</string>
+    <string name="yes_text">Yes</string>
+
+</resources>
